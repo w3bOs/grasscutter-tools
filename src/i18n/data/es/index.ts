@@ -10,47 +10,47 @@ import weaponItemJson from './weaponItem.json?raw'
 import weatherItemJson from './weatherItem.json?raw'
 
 const monsterTypeDict: Record<MonsterType, string> = {
-  MONSTER_ORDINARY: 'Monster',
-  MONSTER_BOSS: 'Boss',
+  MONSTER_ORDINARY: 'Monstruo',
+  MONSTER_BOSS: 'Jefe',
   MONSTER_ENV_ANIMAL: 'Animal',
-  MONSTER_FISH: 'Fish',
-  MONSTER_PARTNER: 'Partner'
+  MONSTER_FISH: 'Pez',
+  MONSTER_PARTNER: 'Compañero'
 }
 
-const questTags = ['hidden', 'test', 'unreleased']
+const questTags = ['oculto', 'test', 'no liberado']
 
-const weatherType = ['sunny', 'cloudy', 'rain', 'thunderstorm', 'snow', 'mist']
+const weatherType = ['soleado', 'nublado', 'lluvia', 'tormenta', 'nevado', 'neblina']
 
-const itemTags = ['Characters', 'Weapons', 'Material']
+const itemTags = ['Personajes', 'Armas', 'Materiales']
 
 const weaponTypeDict: Record<WeaponType, string> = {
-  WEAPON_SWORD_ONE_HAND: 'Sword',
-  WEAPON_CLAYMORE: 'Claymore',
-  WEAPON_POLE: 'Polearm',
-  WEAPON_CATALYST: 'Catalyst',
-  WEAPON_BOW: 'Bow'
+  WEAPON_SWORD_ONE_HAND: 'Espada Ligera',
+  WEAPON_CLAYMORE: 'Mandoble',
+  WEAPON_POLE: 'Lanza',
+  WEAPON_CATALYST: 'Catalizador',
+  WEAPON_BOW: 'Arco'
 }
 
 const materialTypeDict: Record<MaterialType, string> = {
-  undefined: 'Sundry',
+  undefined: 'Misceláneos',
   FAKE_ABSORBATE: 'FAKE_ABSORBATE',
   ADSORBATE: 'ADSORBATE',
-  CONSUME: 'Consume',
-  TALENT: 'Talent',
-  AVATAR: 'Avatar',
-  CHEST: 'Chest',
+  CONSUME: 'Consumibles',
+  TALENT: 'Talentos',
+  AVATAR: 'Personajes',
+  CHEST: 'Cofres',
   NOTICE_ADD_HP: 'NOTICE_ADD_HP',
-  EXCHANGE: 'Exchange',
-  WOOD: 'Wood',
-  QUEST: 'Quest',
-  CRICKET: 'Cricket',
-  WIDGET: 'Widget',
+  EXCHANGE: 'Trueques',
+  WOOD: 'Madera',
+  QUEST: 'Misión',
+  CRICKET: 'Grillos',
+  WIDGET: 'Artilugios',
   ELEM_CRYSTAL: 'ELEM_CRYSTAL',
-  SPICE_FOOD: 'Spice Food',
+  SPICE_FOOD: 'Comida picante',
   ACTIVITY_GEAR: 'ACTIVITY_GEAR',
   ACTIVITY_ROBOT: 'ACTIVITY_ROBOT',
   ACTIVITY_JIGSAW: 'ACTIVITY_JIGSAW',
-  FOOD: 'Food',
+  FOOD: 'Comida',
   EXP_FRUIT: 'EXP_FRUIT',
   WEAPON_EXP_STONE: 'WEAPON_EXP_STONE',
   AVATAR_MATERIAL: 'AVATAR_MATERIAL',
@@ -69,7 +69,7 @@ const materialTypeDict: Record<MaterialType, string> = {
   ARANARA: 'ARANARA',
   DESHRET_MANUAL: 'DESHRET_MANUAL',
   FIREWORKS: 'FIREWORKS',
-  COSTUME: 'Costume',
+  COSTUME: 'Vestimentas',
   FURNITURE_SUITE_FORMULA: 'FURNITURE_SUITE_FORMULA',
   FURNITURE_FORMULA: 'FURNITURE_FORMULA'
 }
